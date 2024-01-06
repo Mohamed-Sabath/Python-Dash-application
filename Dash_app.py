@@ -166,6 +166,7 @@ import plotly.graph_objects as go
 from datetime import datetime as dt
 
 app = dash.Dash()
+server=app.server
 app.title = "Final_assignment"
 
 
