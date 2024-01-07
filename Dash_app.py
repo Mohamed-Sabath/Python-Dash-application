@@ -166,7 +166,7 @@ import plotly.graph_objects as go
 from datetime import datetime as dt
 
 app = dash.Dash()
-server=app.server
+
 app.title = "Final_assignment"
 
 
@@ -405,8 +405,6 @@ def update_bar_chart(selected_category, selected_y_axis):
 
 
 
-if __name__ == '__main__':
-    app.run_server(port=8060)
 
 
 # In[ ]:
