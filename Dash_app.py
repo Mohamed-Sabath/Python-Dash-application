@@ -405,6 +405,9 @@ def update_bar_chart(selected_category, selected_y_axis):
 
 
 
+if __name__ == '__main__':
+    app.run_server(port=8060)
+
 
 
 # In[ ]:
